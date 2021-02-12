@@ -2,66 +2,190 @@ body{
   padding: 0;
 }
 
+/* div{
+  border: 2px solid black;
+} */
+
+/* Main Section */
 .navbar{
-  background-color: #f88f01;
+  background-color: #FF9C19;
   padding: 0.5rem 6rem;
 }
 
-.navbar-brand{
-  font-family: 'Domine', serif;
-  font-size: 3rem;
+.brand-title{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 5rem;
 }
 
 .navbar-text{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  color: white !important;
+  padding-top: .7rem;
 }
 
-.nav-tabs{
-  padding: 0.5rem 6rem 0;
-  background-color: #FF9C19;
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-right: 10.9rem;
+  padding-top: .7rem;
 }
 
-.menu-link{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: white;
+.main-text-section{
+  padding: 6rem 6rem;
+  text-align: justify;
+  background-color: #F9F9FA;
 }
 
-.law-container{
-  background-image: url('../imgs/law.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 12vh;
-}
-
-.main{
-  padding: 2.5rem 6rem;
-  text-align: center;
-}
-
-h1{
-  font-family: 'Domine', serif;
+.title-container{
+  font-family: 'Playfair Display SC', serif;
   margin-bottom: 3rem;
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.call-to-action-box{
-  padding: 3rem 6rem;
+.contact-btn{
+  background-color: #F88F01;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 1.2rem;
+  width: 65%;
+  padding: .7rem;
 }
 
-.cta-btn{
-  background-color: #f88f01;
-  color: white;
-  font-size: 1.4rem;
+.contact-btn:hover{
+  background-color: #fff;
+  color: #F88F01;
+}
+
+.msg-column{
+  margin-top: 40%;
+  margin-left: 25%;
+}
+
+.col-phone-call{
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.owl-justice{
+  position: absolute;
+  margin-left: 62%;
   margin-top: 1rem;
+  background-image: url('../imgs/owl.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 38%;
+  height: 80vh;
 }
+
+/*Services*/
+
+#services{
+  position: relative;
+  padding: 6rem 6rem;
+  background-color: #fff;
+  text-align: justify;
+}
+
+.icon-service{
+  text-align: center;
+}
+
+h3{
+  font-family: 'Playfair Display SC', serif;
+  margin-bottom: 2rem;
+}
+
+.img-icon{
+  margin-bottom: 2rem;
+}
+
+/* About */
+
+#about{
+  padding: 6rem 6rem;
+  background-color: #F9F9FA;
+}
+
+h2{
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+}
+
+.lawyer-img-comtainer{
+  width: 100%;
+  height: 20vh;
+  margin-top: 3rem;
+  background-image: url("../imgs/lawyer.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.about-us-text-container{
+  padding-top: 3rem;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Contact */
+#contact{
+  background-color: #fff;
+}
+
+.btn-form-submit{
+  background-color: #F88F01;
+  color: #000;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  width: 9rem;
+}
+
+.btn-form-submit:hover{
+  background-color: #fff;
+  color: #F88F01;
+}
+
+.form-validation{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.contact-backgrund{
+  background-image: url('../imgs/library.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.contact-layer{
+  color: #fff;
+  width: 100%;
+  padding: 6rem 6rem;
+}
+
+.contact-info h3{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 6rem;
+}
+
+.contact-info p{
+  font-size: 2rem;
+}
+
+.map-container{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#maps{
+  padding: 6rem 6rem;
+  background-color: #fff;
+}
+
+/* Footer */
 
 .footer{
   background-color: black;
@@ -72,18 +196,58 @@ p{
   padding: 3rem 6rem;
 }
 
+/* Responsive */
+
 @media (max-width: 700px) {
-  .navbar{
-    padding: 0.5rem 2rem;
+  .owl-justice{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 50rem;
+    background-image: url('../imgs/owl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 38%;
+    height: 50vh;
   }
-  .nav-tabs{
-    padding: 0.5rem 2rem 0;
+
+  .main-text-section{
+    padding: 3rem 3rem;
+    text-align: justify;
+    background-color: #F9F9FA;
   }
-  .law-container{
-    background-image: url('../imgs/law.jpg');
-    height: 15vh;
+
+  .main-title-responsive{
+    font-size: 3rem;
+    text-align: left;
   }
-  .main{
-    padding: 0.5rem 2rem;
+
+  .brand-title{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5rem;
+  }
+
+  .contact-btn{
+    font-size: 1.2rem;
+    width: 75%;
+    padding: .7rem;
+  }
+
+  #services{
+    padding: 3rem 3rem;
+    background-color: #fff;
+    text-align: justify;
+  }
+
+  .icon-service{
+    margin-top: 1.5rem;
+  }
+
+  #about{
+    padding: 3rem 3rem;
+  }
+
+  .contact-layer{
+    padding: 3rem 3rem;
   }
 }
