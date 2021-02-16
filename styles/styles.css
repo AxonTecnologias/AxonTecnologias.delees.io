@@ -220,7 +220,7 @@ body{
 
 /* Responsive */
 
-@media (max-width: 640px) {
+@media (max-width: 500px) {
   .owl-justice{
     position: absolute;
     margin-left: 35%;
