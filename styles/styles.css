@@ -240,7 +240,7 @@ body{
 
 /* Responsive */
 
-@media (max-width: 300px) {
+@media (max-width: 700px) {
 
   .main-container{
     background-image: url('../imgs/deleesBackground.jpg');
