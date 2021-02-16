@@ -207,6 +207,26 @@ body{
   background-color: #fff;
 }
 
+#gmap_canvas{
+  width: 314px;
+  height: 294px;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:294px;
+  width:314px;
+  margin-bottom:2rem;
+}
+
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:294px;
+  width:314px;
+}
+
 /* Footer */
 
 .footer{
@@ -221,17 +241,6 @@ body{
 /* Responsive */
 
 @media (max-width: 500px) {
-  .owl-justice{
-    position: absolute;
-    margin-left: 35%;
-    margin-top: 50rem;
-    background-image: url('../imgs/owl.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 38%;
-    height: 50vh;
-  }
 
   .main-container{
     background-image: url('../imgs/deleesBackground.jpg');
@@ -245,19 +254,35 @@ body{
   }
 
   .main-title-responsive{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
   }
 
   .brand-title{
     font-family: 'Playfair Display SC', serif;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .contact-btn{
     font-size: 1.2rem;
-    width: 75%;
+    width: 95%;
     padding: .7rem;
+  }
+
+  .msg-column{
+    margin-top: 28%;
+    margin: auto;
+  }
+
+  .col-phone-call{
+    margin: auto;
+    margin-top: 25%;
+  }
+
+  .contact-backgrund{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #services{
@@ -277,4 +302,21 @@ body{
   .contact-layer{
     padding: 3rem 3rem;
   }
+
+  #gmap_canvas{
+    width: 150px;
+    height: 150px;
+  }
+
+  .mapouter{
+    height:150px;
+    width:150px;
+    margin-bottom:2rem;
+  }
+
+  .gmap_canvas{
+    height:150px;
+    width:150px;
+  }
+
 }
