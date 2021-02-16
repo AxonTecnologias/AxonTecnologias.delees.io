@@ -1,0 +1,280 @@
+body{
+  padding: 0;
+}
+
+/* div{
+  border: 2px solid black;
+} */
+
+/* Main Section */
+.navbar{
+  background-color: #ff9c19;
+  padding: 0.5rem 6rem;
+}
+
+.brand-title{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 5rem;
+}
+
+.navbar-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  padding-top: .7rem;
+}
+
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-right: 10.9rem;
+  padding-top: .7rem;
+}
+
+.main-container{
+  background-image: url('../imgs/deleesBackground.jpg');
+  background-size: cover;
+}
+
+.main-text-section{
+  padding: 6rem 6rem;
+  text-align: justify;
+}
+
+.main-text-section h1{
+  color: #000;
+}
+
+.title-container{
+  font-family: 'Playfair Display SC', serif;
+  margin-bottom: 3rem;
+}
+
+.main-text-section p{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+
+.contact-btn{
+  background-color: #f88f01;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 1.2rem;
+  width: 65%;
+  padding: .7rem;
+}
+
+.contact-btn:hover{
+  background-color: #e1bb66;
+}
+
+.msg-column{
+  margin-top: 28%;
+  margin-left: 25%;
+}
+
+.col-phone-call{
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.owl-justice{
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 1rem;
+  background-image: url('../imgs/owl.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 38%;
+  height: 80vh;
+}
+
+/*Services*/
+
+#services{
+  position: relative;
+  padding: 6rem 6rem;
+  background-color: #fff;
+  text-align: justify;
+}
+
+#services h3{
+  font-family: 'Playfair Display SC', serif;
+  margin-bottom: 2rem;
+  color: #e1bb66;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.icon-service{
+  text-align: center;
+}
+
+.img-icon{
+  margin-bottom: 2rem;
+}
+
+/* About */
+
+#about{
+  padding: 6rem 6rem;
+  background-color: #fff0cf;
+}
+
+#about h2{
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  color: #e1bb66;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.lawyer-img-comtainer{
+  width: 100%;
+  height: 20vh;
+  margin-top: 3rem;
+  background-image: url("../imgs/lawyer.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.about-us-text-container{
+  padding-top: 3rem;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Contact */
+#contact{
+  background-color: #fff;
+}
+
+#contact h2{
+  font-family: 'Playfair Display SC', serif;
+  color: #e1bb66;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.btn-form-submit{
+  background-color: #F88F01;
+  color: #000;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  width: 9rem;
+}
+
+.btn-form-submit:hover{
+  background-color: #fff;
+  color: #F88F01;
+}
+
+.form-validation{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.contact-backgrund{
+  background-image: url('../imgs/library.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.contact-layer{
+  color: #fff;
+  width: 100%;
+  padding: 6rem 6rem;
+}
+
+.contact-info h3{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 6rem;
+}
+
+.contact-info p{
+  font-size: 2rem;
+}
+
+.map-container{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#maps{
+  padding: 6rem 6rem;
+  background-color: #fff;
+}
+
+/* Footer */
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  padding: 3rem 6rem;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  .owl-justice{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 50rem;
+    background-image: url('../imgs/owl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 38%;
+    height: 50vh;
+  }
+
+  .main-container{
+    background-image: url('../imgs/deleesBackground.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-text-section{
+    padding: 3rem 3rem;
+    text-align: justify;
+  }
+
+  .main-title-responsive{
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .brand-title{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5rem;
+  }
+
+  .contact-btn{
+    font-size: 1.2rem;
+    width: 75%;
+    padding: .7rem;
+  }
+
+  #services{
+    padding: 3rem 3rem;
+    background-color: #fff;
+    text-align: justify;
+  }
+
+  .icon-service{
+    margin-top: 1.5rem;
+  }
+
+  #about{
+    padding: 3rem 3rem;
+  }
+
+  .contact-layer{
+    padding: 3rem 3rem;
+  }
+}
