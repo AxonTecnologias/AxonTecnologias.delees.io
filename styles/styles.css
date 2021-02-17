@@ -8,13 +8,19 @@ body{
 
 /* Main Section */
 .navbar{
-  background-color: #ff9c19;
+  background-color: #453B20;
   padding: 0.5rem 6rem;
 }
 
 .brand-title{
   font-family: 'Playfair Display SC', serif;
   font-size: 5rem;
+  font-weight: bold;
+}
+
+.main-title-responsive{
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .navbar-text{
@@ -30,18 +36,23 @@ body{
   padding-top: .7rem;
 }
 
+.nav-element{
+  color: #e1bb66;
+}
+
 .main-container{
   background-image: url('../imgs/deleesBackground.jpg');
   background-size: cover;
 }
 
 .main-text-section{
-  padding: 6rem 6rem;
+  padding: 8rem 6rem;
   text-align: justify;
 }
 
 .main-text-section h1{
-  color: #000;
+  color: #fff;
+  text-shadow: 3px 3px 5px #453B20;
 }
 
 .title-container{
@@ -50,18 +61,23 @@ body{
 }
 
 .main-text-section p{
-  color: #000;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #453B20;
 }
 
 .contact-btn{
-  background-color: #f88f01;
+  background-color: Transparent;
+  border: 2px solid #fff;
   font-family: 'Montserrat', sans-serif;
-  color: #000;
   font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
   width: 65%;
   padding: .7rem;
+  text-shadow: 3px 3px 5px #453B20;
 }
 
 .contact-btn:hover{
@@ -76,17 +92,6 @@ body{
 .col-phone-call{
   margin-left: 25%;
   margin-top: 25%;
-}
-
-.owl-justice{
-  position: absolute;
-  margin-left: 62%;
-  margin-top: 1rem;
-  background-image: url('../imgs/owl.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 38%;
-  height: 80vh;
 }
 
 /*Services*/
@@ -240,37 +245,61 @@ body{
 
 /* Responsive */
 
+@media (max-width: 1024px){
+  #gmap_canvas{
+    width: 150px;
+    height: 150px;
+  }
+
+  .mapouter{
+    height:150px;
+    width:150px;
+    margin-bottom:2rem;
+  }
+
+  .gmap_canvas{
+    height:150px;
+    width:150px;
+  }
+}
+
 @media (max-width: 500px) {
 
   .main-container{
     background-image: url('../imgs/deleesBackground.jpg');
     background-size: cover;
-    background-position: center;
   }
 
   .main-text-section{
-    padding: 3rem 3rem;
+    padding: 6rem 2rem;
     text-align: justify;
   }
 
   .main-title-responsive{
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: left;
+  }
+
+  .main-text-section p{
+    font-size: 1.2rem;
   }
 
   .brand-title{
     font-family: 'Playfair Display SC', serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .contact-btn{
-    font-size: 1.2rem;
-    width: 95%;
+    font-size: 1.5rem;
+    width: 100%;
     padding: .7rem;
   }
 
+  .msg-container{
+    margin-top: 3rem;
+  }
+
   .msg-column{
-    margin-top: 28%;
     margin: auto;
   }
 
@@ -286,7 +315,7 @@ body{
   }
 
   #services{
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
     background-color: #fff;
     text-align: justify;
   }
@@ -296,7 +325,7 @@ body{
   }
 
   #about{
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
   }
 
   .contact-layer{
