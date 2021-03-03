@@ -8,19 +8,8 @@ body{
 
 /* Main Section */
 .navbar{
-  background-color: #453B20;
+  background-color: #4A6991;
   padding: 0.5rem 6rem;
-}
-
-.brand-title{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 5rem;
-  font-weight: bold;
-}
-
-.main-title-responsive{
-  font-size: 3rem;
-  font-weight: bold;
 }
 
 .navbar-text{
@@ -31,7 +20,6 @@ body{
 
 .nav-item{
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
   padding-right: 10.9rem;
   padding-top: .7rem;
 }
@@ -43,19 +31,23 @@ body{
 .main-container{
   background-image: url('../imgs/deleesBackground.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-text-section{
-  padding: 8rem 6rem;
+  padding: 7rem 6rem;
   text-align: justify;
 }
 
 .main-text-section h1{
   color: #fff;
+  font-size: 2.5rem;
   text-shadow: 3px 3px 5px #453B20;
 }
 
 .title-container{
+  font-weight: bold;
   font-family: 'Playfair Display SC', serif;
   margin-bottom: 3rem;
 }
@@ -105,18 +97,39 @@ body{
 
 #services h3{
   font-family: 'Playfair Display SC', serif;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   color: #e1bb66;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.icon-service{
-  text-align: center;
+#services h2{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem;
+  color: #354157;
 }
 
-.img-icon{
+/* #services div{
+  border: 1px solid black;
+} */
+
+.menu-container{
+  padding: 0;
+  border-right: 2px solid #4a6991;
+}
+
+.nav-column{
+  font-family: 'Montserrat', sans-serif;
+  color: #4a6991;
   margin-bottom: 2rem;
+  font-weight: bold;
+  /* border: 1px solid black; */
+}
+
+
+.service-p{
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* About */
@@ -207,31 +220,6 @@ body{
   text-align: center;
 }
 
-#maps{
-  padding: 6rem 6rem;
-  background-color: #fff;
-}
-
-#gmap_canvas{
-  width: 314px;
-  height: 294px;
-}
-
-.mapouter{
-  position:relative;
-  text-align:right;
-  height:294px;
-  width:314px;
-  margin-bottom:2rem;
-}
-
-.gmap_canvas{
-  overflow:hidden;
-  background:none!important;
-  height:294px;
-  width:314px;
-}
-
 /* Footer */
 
 .footer{
@@ -246,47 +234,52 @@ body{
 /* Responsive */
 
 @media (max-width: 1024px){
-  #gmap_canvas{
-    width: 150px;
-    height: 150px;
+  .navbar{
+    background-color: #40557D;
+    padding: 0.5rem 4rem;
   }
 
-  .mapouter{
-    height:150px;
-    width:150px;
-    margin-bottom:2rem;
+  .nav-item{
+    padding-right: 9rem;
+    padding-top: .7rem;
   }
 
-  .gmap_canvas{
-    height:150px;
-    width:150px;
+  .nav-link{
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 500px) {
 
+  .navbar{
+    background-color: #40557D;
+    padding: 0.5rem 0;
+  }
+
+  .nav-item{
+    padding: 0;
+  }
+
+  .nav-link{
+    font-size: 0.8rem;
+  }
+
   .main-container{
-    background-image: url('../imgs/deleesBackground.jpg');
     background-size: cover;
   }
 
   .main-text-section{
-    padding: 6rem 2rem;
+    padding: 6rem 1rem;
     text-align: justify;
   }
 
-  .main-title-responsive{
-    font-size: 2.3rem;
-    text-align: left;
-  }
-
   .main-text-section p{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .brand-title{
-    font-family: 'Playfair Display SC', serif;
-    font-size: 3.5rem;
+  .title-container{
+    font-size: 0.2rem;
+    color:blue;
   }
 
   .contact-btn{
@@ -330,22 +323,6 @@ body{
 
   .contact-layer{
     padding: 3rem 3rem;
-  }
-
-  #gmap_canvas{
-    width: 150px;
-    height: 150px;
-  }
-
-  .mapouter{
-    height:150px;
-    width:150px;
-    margin-bottom:2rem;
-  }
-
-  .gmap_canvas{
-    height:150px;
-    width:150px;
   }
 
 }
