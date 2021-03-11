@@ -326,13 +326,10 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 250vh;
-    position: relative;
   }
 
   .about-layer{
-    padding: 2rem;
-    position: absolute;
+    padding: 2rem;    
   }
 
   /* Contact */
