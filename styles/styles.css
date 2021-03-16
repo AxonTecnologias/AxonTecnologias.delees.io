@@ -38,6 +38,7 @@ body{
 .main-text-section{
   padding: 7rem 6rem;
   text-align: justify;
+  background-color: rgba(151,177, 228, 0.6);
 }
 
 .main-text-section h1{
@@ -127,41 +128,49 @@ body{
 
 /* About */
 
+#about{
+  padding: 6rem;
+}
+
 #about h2{
   font-family: 'Playfair Display SC', serif;
   font-weight: bold;
   color: #e1bb66;
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 3rem;
   text-align: left;
+  margin-bottom: 3rem;
 }
 
 #about p{
-  text-shadow: 3px 3px 5px #000;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
-.about-background{
-  background:url('../imgs/library.jpg');
+#about h3{
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #4a6991;
+}
+
+.about-image{
+  background-image: url('../imgs/office.jpg');
   background-size: cover;
   width: 100%;
+  height: 70vh;
 }
 
-.about-layer{
-  background-color: rgba(195, 202, 214, 0.4);
-  padding: 6rem;
-  width: 100%;
-  height: 100%;
+.about-container{
+  padding-top: 5rem;
 }
-
 
 /* Contact */
 #contact{
   background-color: #fff;
+  padding: 6rem;
 }
 
 #contact h2{
@@ -183,24 +192,10 @@ body{
 
 .contact-layer{
   width: 100%;
-  padding: 6rem 6rem;
 }
 
 .contact-content{
   font-family: 'Montserrat', sans-serif;
-}
-
-/* .btn-form-submit{
-  background-color: #F88F01;
-  color: #000;
-  font-size: 1.3rem;
-  margin-top: 1rem;
-  width: 9rem;
-}
-
-.btn-form-submit:hover{
-  background-color: #fff;
-  color: #F88F01;
 }
 
 .form-validation{
@@ -208,21 +203,22 @@ body{
   margin-top: 3rem;
   font-weight: bold;
   font-size: 1.1rem;
+  color: #4A6991;
 }
 
-.contact-layer{
-  width: 100%;
-  padding: 6rem 6rem;
+.btn-form-submit{
+  background-color: #DDC79E;
+  color: #212120;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  width: 9rem;
 }
 
-.contact-info h3{
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 6rem;
+.btn-form-submit:hover{
+  background-color: #4A6991;
+  color: #212120;
 }
 
-.contact-info p{
-  font-size: 2rem;
-} */
 
 /* Footer */
 
@@ -253,7 +249,7 @@ body{
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
   /* Main */
 
@@ -316,34 +312,27 @@ body{
   }
 
   /* About */
+
+  #about{
+    padding: 2rem;
+  }
+
   #about h2{
     font-size: 2rem;
     margin-bottom: 3rem;
   }
 
-  .about-background{
-    background:url('../imgs/library.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-  }
-
-  .about-layer{
-    padding: 2rem;    
-  }
-
   /* Contact */
+  #contact{
+    padding: 2rem;
+  }
+
   #contact h2{
     font-family: 'Playfair Display SC', serif;
     color: #e1bb66;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
-  }
-
-  .contact-layer{
-    width: 100%;
-    padding: 2rem 2rem;
   }
 
 }
