@@ -35,8 +35,15 @@ body{
 
 .main-text-section h1{
   color: #fff;
-  font-size: 2.5rem;
   text-shadow: 3px 3px 5px #453B20;
+}
+
+.brand-title{
+  font-size: 5rem;
+}
+
+.main-title-responsive{
+  font-size: 2rem;
 }
 
 .title-container{
@@ -49,22 +56,6 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   text-shadow: 3px 3px 5px #453B20;
-}
-
-.contact-btn{
-  background-color: Transparent;
-  border: 2px solid #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
-  width: 65%;
-  padding: .7rem;
-  text-shadow: 3px 3px 5px #453B20;
-}
-
-.contact-btn:hover{
-  background-color: #585191;
-  color: #fff;
 }
 
 .msg-column{
@@ -228,6 +219,7 @@ body{
   padding: 2rem 6rem;
   color: white;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-left{
@@ -240,6 +232,24 @@ body{
 
 .footer-right{
   text-align: right;
+}
+
+.footer-brand{
+  font-size: 1.5rem;
+}
+
+.contact-btn{
+  background-color: Transparent;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  color: #fff;
+  width: 45%;
+  padding: .3rem;
+}
+
+.contact-btn:hover{
+  background-color: #585191;
+  color: #fff;
 }
 
 /* Responsive */
@@ -278,9 +288,12 @@ body{
     font-size: 0.7rem;
   }
 
-  .main-text-section h1{
-    font-size: 1.8rem;
-    text-align: left;
+  .brand-title{
+    font-size: 3rem;
+  }
+
+  .main-title-responsive{
+    font-size: 1.2rem;
   }
 
   .main-text-section{
@@ -347,8 +360,22 @@ body{
     margin-bottom: 1rem;
   }
 
+  /* Footer */
+
+  .footer{
+    padding: 2rem;
+  }
+
   .footer-left, .footer-center, .footer-right{
     text-align: center;
+  }
+
+  .contact-btn{
+    width: 60%;
+  }
+
+  .footer-right{
+    margin-top: 2rem;
   }
 
 }
